@@ -1,0 +1,15 @@
+﻿<Window x:Class="Express_Report_Folders.WebView.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:Express_Report_Folders.WebView"
+		xmlns:cef="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
+		mc:Ignorable="d"
+		WindowStartupLocation="CenterScreen"
+		WindowState="Maximized"
+		Title="Express Report Folders Web View" >
+	<cef:ChromiumWebBrowser Name="ChromiumWebBrowser">
+		
+	</cef:ChromiumWebBrowser>
+</Window>

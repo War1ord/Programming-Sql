@@ -1,0 +1,60 @@
+﻿@model Express_Report_Folders.Web.Models.ReportQueueJoinClause
+
+<div>
+    <h4>ReportQueueJoinClause</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Sequence)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sequence)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LeftAlias)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LeftAlias)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LeftName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LeftName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RightAlias)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RightAlias)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RightName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RightName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

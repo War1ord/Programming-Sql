@@ -1,0 +1,36 @@
+﻿@model Express_Report_Folders.Web.Models.ReportQueryParameter
+
+<div>
+    <h4>ReportQueryParameter</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Identifier)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Identifier)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValueString)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValueString)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValueType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValueType)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

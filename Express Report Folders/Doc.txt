@@ -1,0 +1,1 @@
+an app that when you right click and click on this apps link it runs the sql file from a selection on historical sql connection or enter a new sql connection

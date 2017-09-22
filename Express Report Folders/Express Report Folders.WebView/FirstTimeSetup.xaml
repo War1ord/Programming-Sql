@@ -1,0 +1,28 @@
+﻿<Window x:Class="Express_Report_Folders.WebView.FirstTimeSetup"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:Express_Report_Folders.WebView"
+		mc:Ignorable="d"
+		WindowStartupLocation="CenterScreen"
+		WindowStyle="ToolWindow"
+		Title="Express Report Folders Web View - First Time Setup" 
+		Height="102.331" Width="544.703"
+		>
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="100"/>
+			<ColumnDefinition/>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition/>
+			<RowDefinition Height="28"/>
+		</Grid.RowDefinitions>
+
+		<Label Grid.Row="0" Grid.Column="0" Content="Url : " HorizontalAlignment="Right"/>
+		<TextBox Name="UrlAddress" Grid.Row="0" Grid.Column="1" />
+
+		<Button Content="Save" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Width="120" Click="Save_Click" />
+	</Grid>
+</Window>

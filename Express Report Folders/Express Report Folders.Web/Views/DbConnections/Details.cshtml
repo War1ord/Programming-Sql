@@ -1,0 +1,37 @@
+﻿@model Express_Report_Folders.Web.Models.DbConnection
+@using controller = Express_Report_Folders.Web.Controllers.DbConnectionsController
+
+@{
+	ViewBag.Title = "Details of Db Connection";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div>
+	<h4>Db Connection</h4>
+	<hr />
+	<dl class="dl-horizontal">
+		<dt>
+			@Html.DisplayNameFor(model => model.Name)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.Name)
+		</dd>
+
+	</dl>
+	<dl class="dl-horizontal">
+		<dt>
+			@Html.DisplayNameFor(model => model.ConnectionString)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.ConnectionString)
+		</dd>
+
+	</dl>
+</div>
+<p>
+	@Html.ActionLink("Edit", nameof(controller.Edit), new { id = Model.Id }) |
+	@Html.ActionLink("Back to List", nameof(controller.Index))
+</p>

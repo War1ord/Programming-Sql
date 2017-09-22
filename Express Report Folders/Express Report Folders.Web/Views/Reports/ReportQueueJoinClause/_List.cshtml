@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Express_Report_Folders.Web.Models.ReportQueueJoinClause>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Sequence)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LeftAlias)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LeftName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RightAlias)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RightName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sequence)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LeftAlias)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LeftName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RightAlias)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RightName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

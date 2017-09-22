@@ -1,0 +1,6 @@
+a web site and windows application that uses a folder and sub-folders of sql files to build collection of reports
+
+this might require user configurations. 
+like a folder uses a sql connnection that also needs to be setup.
+
+also need to find a way to push user input or filters.

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Express_Report_Folders.Web.Models.ReportModelBase">
+    <Position X="4.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAA=</HashCode>
+      <FileName>Models\BaseClasses.cs</FileName>
+      <NewMemberFileName>Models\Report.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Express_Report_Folders.Web.Models.DbConnection">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Models\DbConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Express_Report_Folders.Web.Models.ReportQueryParameter">
+    <Position X="0.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEAA=</HashCode>
+      <FileName>Models\ReportQueryParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Express_Report_Folders.Web.Models.ReportQuerySelect">
+    <Position X="2.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Models\ReportQuerySelect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Express_Report_Folders.Web.Models.ReportQueryWhere">
+    <Position X="2.75" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAAARAAAAEIAAA=</HashCode>
+      <FileName>Models\ReportQueryWhere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Express_Report_Folders.Web.Models.ReportQueueJoin">
+    <Position X="4.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAAAAAAEEAAAA=</HashCode>
+      <FileName>Models\ReportQueueJoin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Express_Report_Folders.Web.Models.ReportQueueJoinClause">
+    <Position X="4.75" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAAARAAAAEIAAA=</HashCode>
+      <FileName>Models\ReportQueueJoinClause.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,1 @@
+﻿sys.sp_help 'report_monthend_pathology_current'
